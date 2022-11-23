@@ -6,4 +6,5 @@
 
 export * from "./voice-events";
 export * from "./text-events";
+export * from "./olos-events";
 //contain alias because there are events with the same name
