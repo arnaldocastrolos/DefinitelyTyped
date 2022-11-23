@@ -1,3 +1,11 @@
-import * as olostypes from "./index"
+import { OlosEvent } from ".";
 
-const event = olostypes.EnumAgentStatusId;
+const olos_event: OlosEvent = {
+    eventId: 'eventId',
+    agentId: 'agentId',
+    eventType: 'eventType',
+    campaignId: 0,
+    channelType: 'channelType',
+    channel: 'channel',
+    timestamp: 0
+  }

@@ -4,16 +4,7 @@
 // Definitions: https://github.com/OlosLive/olos-types/tree/main/agent-events
 // TypeScript Version: 2.7
 
-export interface OlosEvent {
-    eventId: string;
-    agentId: string;
-    eventType: string;
-    campaignId: number;
-    channelType: string;
-    channel?: string;
-    timestamp: number;
-  }
-  
+export {};
   
 export interface OlosEvent {
     eventId: string;
