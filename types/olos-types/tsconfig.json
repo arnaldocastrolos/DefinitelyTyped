@@ -18,6 +18,6 @@
   },
   "files": [
     "index.d.ts",
-    "test/olos-types-ts-tests.ts"
+    "tolos-types-tests.ts"
 ]
 }
