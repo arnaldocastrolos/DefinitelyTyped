@@ -8,5 +8,12 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true
-  }
+  },
+  "files": [
+    "index.d.ts",
+    "olos-types-ts-tests.ts",
+    "olos-events.d.ts",
+    "text-events.d.ts",
+    "voice-events.d.ts"
+]
 }
