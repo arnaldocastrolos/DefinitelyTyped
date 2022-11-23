@@ -11,7 +11,7 @@
   },
   "files": [
     "index.d.ts",
-    "olos-types-ts-tests.ts",
+    "./test/olos-types-ts-tests.ts",
     "olos-events.d.ts",
     "text-events.d.ts",
     "voice-events.d.ts"
