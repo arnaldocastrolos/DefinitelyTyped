@@ -1,1 +1,3 @@
-import types from "olostypes";
+import * as olostypes from "./index"
+
+const event = olostypes.EnumAgentStatusId;
