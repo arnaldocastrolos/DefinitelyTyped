@@ -1,5 +1,5 @@
-import * as VoiceEvent from "../voice-events"
-import * as TextEvent from "../text-events"
+import  VoiceEvent = require("../voice-events")
+import  TextEvent = require("../text-events")
 
-let eventVoice: VoiceEvent.LoginCCM;
-let eventText: TextEvent.LoginResponse;
+const eventVoice: VoiceEvent.LoginCCM;
+const eventText: TextEvent.LoginResponse;

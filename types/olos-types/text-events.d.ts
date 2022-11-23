@@ -91,7 +91,6 @@ export interface InactivityAlert extends OlosEvent {
   };
 }
 
-//interface to map generic error events
 export interface GenericResponse extends OlosEvent {
   eventData: {
     agentId: string;
@@ -241,8 +240,6 @@ export interface PauseResponse extends OlosEvent {
     errorMessage: string;
   };
 }
-
-/** types that do not represent a text event */
 
 export type AsyncMessageContentData = {
   messageId: string;
